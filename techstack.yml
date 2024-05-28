@@ -1,0 +1,43 @@
+repo_name: dekolor/bonuri
+report_id: 39162d3eab500ee22658de30fb5f512a
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-28T11:27:56+00:00'
+requested_by: web-flow
+provider: github
+branch: master
+detected_tools_count: 3
+tools:
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/dekolor/bonuri
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/dekolor/bonuri/blob/master/bonuri.sql
+  detection_source: bonuri.sql
+  last_updated_by: dekolor
+  last_updated_on: 2018-05-06 14:57:41.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/dekolor/bonuri
+  detection_source: Repo Metadata
